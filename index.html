@@ -1,224 +1,80 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/x-icon" href="img/logo.png">
-		<title>阿晨同学 -不负遇见</title>
-		<link rel="apple-touch-icon-precomposed" href="img/logo.png">
-		<link rel="stylesheet" type="text/css" href="css/h.css">
-		<link rel="stylesheet" type="text/css" href="css/n.css">
-		<script src="js/page.js"></script>
-		<script>
-			function a() {
-				dataLayer.push(arguments)
-			}
-			window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-137340638-1");
-		</script>
-	</head>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Noah">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./img/favicon.ico">
+    <title>永久发布页</title>
+    <meta name="keywords" content="地址发布页">
+    <meta name="description" content="永久发布页">
+    <link rel="stylesheet" href="./css/1.css">
+    <script src="./js/1.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload =function(){
+            // 生成二维码
+            var qrcode = new QRCode(document.getElementById("qrcode"), {
+                width : 160,//设置宽高
+                height : 160
+            });
+            qrcode.makeCode("https://ichenc.github.io/-/fby.html");
+           
+        }
+    </script>
+    <!-- 背景粒子特效模块 -->
+    <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+    </div>
+    <div id="all">
+        <div class="wrapper">
+            <div class="main">
+                <h1>永久地址发布页</h1>
+                <div class="content">
+                    <div class="content-top">
+                        <h2>请 Ctrl+D 收藏本页到浏览器收藏夹</h2>
+                        <ul>
+			<li>
+			    <font color="blue">首页</font>
+			    <div class="link">
+			        <div><a href="https://ichen.vip/" target="_blank" style="color:#02a982">首页地址</a></div>
+			        <div class="go"><a href="https://ichen.vip/" target="_blank">点击前往</a></div>
+			    </div>
+				</li>
+				<li>
+				    <font color="blue">应用</font>
+				    <div class="link">
+				        <div><a href="https://ichen.vip/-/" target="_blank" style="color:#02a982">下载</a></div>
+				        <div class="go"><a href="https://ichen.vip/demo/tvjk.html" target="_blank">点击前往</a></div>
+				    </div>
+					</li>
 
-	<body>
-		<nav>
-			<a href="/" target="_blank" class="active">首页</a> <a class="clip"></a>
-			<a href="https://ichenc.github.io/vip/assets/js/vip.js" target="_blank">Web</a>
-			<a class="clip"></a> <a href="https://www.123pan.com/s/aBicVv-lI9J.html" target="_blank">Android</a>
-			<a class="clip"></a> <a href="https://www.123pan.com/s/aBicVv-bI9J.html" target="_blank">TV</a>
-		</nav>
-		<div class="background">
-			<canvas id="startrack"></canvas>
-			<div class="cover"></div>
-		</div>
-		<div class="main">
-			<div class="ch intro">
-				<div class="container">
-					<div class="hello">
-						<h1 id="slogan">等待中...</h1>
-						<h2>
-							<div class="circle"> <span></span> <span></span>
-								<span></span>
-							</div>阿晨同学
-						</h2>
-					</div>
-				</div>
-			</div>
-			<div class="ch about">
-				<div class="container">
-					<h2 class="chtitle">Who am <span>阿晨同学</span>？</h2>
-					<div class="clear">
-						<div class="introduct">
-							<img class="avatar" src="https://ichenc.github.io/assets/img/logo.jpg">
-							<P style="padding-top:1em;">我从我薄弱的青春里打马而过，穿过紫堇，穿过木棉，穿过时隐时现的悲喜跟无常... ...</p>
-							<br>
-							<p>你好，这里是阿晨同学，对有趣的世界和可能有趣的你充满好奇~
-							</p>
+                            <li>
+                                <font color="blue">TG交流群</font>
+                                <div class="link">
+                                    <div style="color:#02a982">需科学上网！</div>
+                                    <div class="go"><a href="https://t.me/ichenc" target="_blank">点击进群</a></div>
+                                </div>
 
-							<br>希望能与你在比特之海的繁星之下相见！
-							</p>
-							<div class="chatbox">
-								<div class="line loading"> <span></span>
-									<span></span> <span></span>
-								</div>
-							</div>
-						</div>
-						<ul class="skill clear">
-							<li>
-								<p>灵感</p>
-								<div class="progress">
-									<div style="width:99%;"></div>
-									<span>百分之99的灵感</span>
-								</div>
-							</li>
-							<li>
-								<p>汗水</p>
-								<div class="progress">
-									<div style="width:1%;"></div>
-									<span>百分之1的汗水</span>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="find ch">
-				<div class="container links">
-					<h2 class="chtitle"><span>摸鱼</span>导航</h2>
-					<div class="clear col-3">
-
-						<!--电影-->
-
-						<a href="https://www.iqiyi.com" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#aaff00"></div>
-								<div class="inner"> <span>爱奇艺</span> </div>
-							</div>
-						</a>
-						<a href="https://www.youku.com" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#28a9e0"></div>
-								<div class="inner"> <span>YOUKU</span> </div>
-							</div>
-						</a>
-						<a href="https://v.qq.com" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#ff0000"></div>
-								<div class="inner"> <span>腾讯视频</span> </div>
-							</div>
-						</a>
-						<a href="https://www.mgtv.com" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#ffaa00"></div>
-								<div class="inner"> <span>芒果TV</span> </div>
-							</div>
-						</a>
-						<a href="https://www.bilibili.com" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#ffaaff"></div>
-								<div class="inner"> <span>bilibili</span> </div>
-							</div>
-						</a>
-						<a href="https://a.ysscj.site/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#000000"></div>
-								<div class="inner"> <span>影视收藏夹</span> </div>
-							</div>
-						</a>
-
-						<!--音乐-->
-
-						<a href="https://github.com/cloudflypeng/eno-music" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#cecece"></div>
-								<div class="inner"> <span>Eno Music</span> </div>
-							</div>
-						</a>
-						<a href="https://lxmusic.toside.cn/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#55ff7f"></div>
-								<div class="inner"> <span>LX Music</span> </div>
-							</div>
-						</a>
-						<a href="https://listen1.github.io/listen1/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#707070"></div>
-								<div class="inner"> <span>Listen1</span> </div>
-							</div>
-						</a>
-
-						<!--电台-->
-
-						<a href="https://www.ximalaya.com/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#ff5500"></div>
-								<div class="inner"> <span>喜马拉雅</span> </div>
-							</div>
-						</a>
-						<a href="https://www.qingting.fm/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#ff0000"></div>
-								<div class="inner"> <span>蜻蜓FM</span> </div>
-							</div>
-						</a>
-						<a href="https://www.lizhi.fm/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#eb9deb"></div>
-								<div class="inner"> <span>荔枝FM</span> </div>
-							</div>
-						</a>
-
-						<!--短视频资源-->
-
-						<a href="https://www.xinpianchang.com/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#a6a6a6"></div>
-								<div class="inner"> <span>新片场</span> </div>
-							</div>
-						</a>
-						<a href="https://6pian.cn/" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#c0c000"></div>
-								<div class="inner"> <span>牛片网</span> </div>
-							</div>
-						</a>
-						<a href="https://www.vjshi.com" target="_blank">
-							<div class="item">
-								<div class="bg" style="background-color:#00ffff"></div>
-								<div class="inner"> <span>光厂</span> </div>
-							</div>
-						</a>
-					</div>
-
-					<div class="gate ch">
-						<div class="container links">
-							<h2 class="chtitle"><span>更多</span></h2>
-
-							<!-- 更多 -->
-
-							<a href="https://bing.ichen.vip/" target="_blank">
-								<div class="item">
-									<div class="avatar"> <img src="img/bing.png"> </div>
-									<div class="inner">
-										<h5>Bing壁纸</h5>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="footer ch">
-			<div class="container">
-				<h3>阿晨同学</h3>
-				<p>蘑菇森林的尽头，新世界的起点</p>
-				<p class="c"><a href="/" target="_blank">Say hello to me @ 阿晨</a></p>
-			</div>
-		</div>
-		</div>
+                            </li>
+                            <li>
+                                <span><br>近期部分浏览器屏蔽网址，电脑请安装<a href="https://www.google.cn/chrome/" target="_blank">Chrome浏览器</a>访问，手机请安装<a href="https://www.myquark.cn" target="_blank">夸克浏览器</a>访问。</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="footer">© 2022-2025 阿晨</p>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;"><script charset="UTF-8" id="LA_COLLECT" src="./js/2.js"></script>
 
 
-	</body>
-
+</body>
 </html>
